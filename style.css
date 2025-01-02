@@ -1,20 +1,49 @@
-footer {
-    background-color: #f1f1f1; /* Light grey background */
-    color: #333; /* Dark grey text color */
-    text-align: center;
-    padding: 20px;
-    position: static;
-    bottom: 0;
-    width: 100%;
-    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
 }
 
-footer p {
-    margin: 5px 0;
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: darkblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+    vertical-align: top;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: darkblue;
 }
 
 footer a {
-    color: #007bff; /* Blue link color */
+    color: darkblue;
     text-decoration: none;
 }
 
