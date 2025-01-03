@@ -1,4 +1,3 @@
-/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +14,7 @@ body {
 
 header {
     text-align: center;
-    background: #d560e4; /* Header color */
+    background: #d560e4;
     color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 8px;
@@ -35,7 +34,7 @@ h1 {
 }
 
 h2 {
-    color: #007bff; /* Section heading color */
+    color: #007bff;
     margin-top: 20px;
     border-bottom: 2px solid #076bd7;
     padding-bottom: 5px;
@@ -43,6 +42,13 @@ h2 {
 
 h3 {
     margin: 10px 0;
+}
+
+.hi {
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+    border-radius: 50%;
 }
 
 h4 {
@@ -54,7 +60,7 @@ p {
 }
 
 a {
-    color: #003873; /* Default link color */
+    color: #003873;
     text-decoration: none;
 }
 
@@ -79,20 +85,19 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background: #003873; /* Footer background color */
+    background: #003873;
     color: white;
     border-radius: 8px;
 }
 
 footer a {
-    color: hsl(192, 100%, 50%); /* Footer link color */
+    color: hsl(192, 100%, 50%);
 }
 
 footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
     header, section, footer {
         padding: 10px;
